@@ -1,7 +1,5 @@
 # Portfolio Template 🚀
 
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
-
 This portfolio template can be used to showcase your past projects, career history, and skillsets. The example project is published with [GitHub Pages](https://abodthedude25.github.io/seng300-portfolio/).
 
 ## Features
