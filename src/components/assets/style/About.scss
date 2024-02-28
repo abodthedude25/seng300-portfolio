@@ -2,6 +2,10 @@
     padding-top: 5%;
 }
 
+.about-page{
+    width: 120%;
+}
+
 .vertical-timeline p {
     color: black;
 }
@@ -24,9 +28,11 @@
 
 .vertical-timeline-element .vertical-timeline-element-date {
     color: white;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (width: auto) {
     .vertical-timeline-element .vertical-timeline-element-date {
         color: black;
     }
