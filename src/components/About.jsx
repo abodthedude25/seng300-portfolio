@@ -16,7 +16,7 @@ function About() {
           <img src="https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=pexels-pixabay-147411.jpg&fm=jpg" alt="Asset by Oziel Gómez" />
           <h2>Brief Summary</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi voluptas odit odio, consequuntur aliquam laborum, repudiandae quas, reprehenderit laboriosam amet dolores? Quidem natus pariatur dolorum a eum perferendis maxime.
+            I am an active, passionate and driven student at the University of Calgary pursuing a double major in Electrical Engineering and Computer Science. As a former full stack engineer, I collaborated with agile teams to deliver RESTful web applications for a diverse population of 100,000+ customers. My expertise includes Full-Stack Development, DevOps, Machine Learning, Low-level systems, Embedded/Middleware Archetictures and Project Management.
           </p>
           <TypeAnimation
             sequence={[
