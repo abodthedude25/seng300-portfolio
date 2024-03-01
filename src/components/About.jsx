@@ -2,7 +2,7 @@ import React from "react";
 import './assets/style/About.scss'
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase,  faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { TypeAnimation } from 'react-type-animation';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -39,6 +39,37 @@ function About() {
         </div>
         <h2>Career Timeline</h2>
         <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'black' }}
+            date="06/2024 – 09/2024"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faUniversity} />}
+          >
+            <h3 className="vertical-timeline-element-title" style={{color: 'red'}} >ENEL ENG & CS Double Degree</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'black'}}>Calgary, AB</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'red'}}>University of Calgary</h4>
+            <ul>
+              <li> <b>Minor: </b> Computer Engineering</li>
+              <li> <b>GPA: </b> 3.99</li>
+              <li> <b>Undergraduate Coursework:</b> Operating Systems; Algorithms and Data Structures; Networks; Comp. Architecture; Machine Learning; Circuits; Logic Design; Signal Processing; Compilers; Database Design. </li>
+            </ul>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'black' }}
+            date="06/2024 – 09/2024"
+            iconStyle={{ background: 'rgb(249, 38, 114)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title" style={{color: 'red'}} >Incoming SWE Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>Seattle, WA</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'green'}}>Google</h4>
+            <ul>
+              <li> Working on the metadata google cloud storage team. </li>
+            </ul>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'black' }}

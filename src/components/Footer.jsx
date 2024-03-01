@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer">
       <footer className="py-5 bg-dark fixed-bottom">
         <div className="contact">
-          <p><a href="https://github.com/yujisatojr/react-portfolio-template" target="_blank" rel="noreferrer">Abod's portfolio</a> with 💛</p>
+          <p><a href="https://github.com/abodthedude25/seng300-portfolio" target="_blank" rel="noreferrer">Abod's portfolio</a> with 💛</p>
         </div>
       </footer>
     </div>
