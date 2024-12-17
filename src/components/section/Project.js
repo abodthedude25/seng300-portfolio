@@ -52,7 +52,7 @@ function Project() {
         </div>
         <div className="project">
           <AspectRatio ratio={1.4}>
-            <a href="https://github.com/brian-ngyn/Beam" target="_blank" rel="noreferrer"><img src={beam} className="zoom" alt="thumbnail" width="100%"/></a>
+            <a href="https://devpost.com/software/beam-9tv7aj" target="_blank" rel="noreferrer"><img src={beam} className="zoom" alt="thumbnail" width="100%"/></a>
           </AspectRatio>
           <a  target="_blank" rel="noreferrer"><h2>Beam</h2></a>
           <p>Beam is a mobile application that enhances personal safety by leveraging real-time sentiment analysis and natural language processing (NLP). It continuously monitors conversations to detect aggression levels, and upon detecting a predefined safe word, it automatically triggers live streaming to a set of emergency contacts.</p>
