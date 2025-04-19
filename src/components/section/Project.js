@@ -2,6 +2,9 @@ import React from 'react';
 import '../assets/style/Project.scss';
 import robotHand from '../assets/images/robot_hand.jpg'
 import beatBox from '../assets/images/beatbox.jpg'
+import chiselers from '../assets/images/chiselers.jpg'
+import earthsEcho from '../assets/images/earthsEcho.png'
+import octreeRender from '../assets/images/octreeRender.png'
 import schulichRacing from '../assets/images/schulichRacing.jpg'
 import ignite from '../assets/images/ignite.png'
 import upSkill from '../assets/images/upskill.jfif'
@@ -24,6 +27,32 @@ function Project() {
           <a href="https://hackaday.io/project/191190-helping-hands" target="_blank" rel="noreferrer"><h2>Helping H.A.N.D.S.</h2></a>
           <p>I designed a PCB to power a x86-64-linux powered SOC-FPGA board (Altera DE1). Our SOC aided in NLP from our FIR-filtered microphones. This then translated over to ROS-controlled servos on our Robot Hand to produce sign language</p>
           <p>Used: C++, ROS, PYTHON, VERILOG</p>
+        </div>
+        <div className="project">
+          <AspectRatio ratio={0.9}>
+            <a href="https://github.com/The-Chiselers" target="_blank" rel="noreferrer"><img src={chiselers} className="zoom" alt="thumbnail" width="100%"/></a>
+            </AspectRatio>
+          <a href="https://github.com/The-Chiselers" target="_blank" rel="noreferrer"><h2>The Chiselers</h2></a>
+          <p>Commercial-Grade FPGA Peripheral Cores: Developed five industry-standard peripheral cores (GPIO, SPI, I2C,
+              UART, Timer) using Chisel hardware description language. Created robust verification flow integrating formal
+              verification, synthesis analysis, and physical FPGA implementation.</p>
+          <p>Used:  C++, Chisel/Scala, Verilator, Yosys, FPGA.</p>
+        </div>
+        <div className="project">
+          <AspectRatio ratio={0.9}>
+            <a href="https://github.com/techstartucalgary/earths-echo" target="_blank" rel="noreferrer"><img src={earthsEcho} className="zoom" alt="thumbnail" width="100%"/></a>
+            </AspectRatio>
+          <a href="https://github.com/techstartucalgary/earths-echo" target="_blank" rel="noreferrer"><h2>Earths Echo</h2></a>
+          <p>The world is facing a growing environmental crisis, Oceans are filling with plastic, air pollution is worsening, and deforestation is destroying biodiversity. And, many are left feeling too powerless to help. Our game bridges this gap—allowing players to enjoy an immersive experience while directly funding real-world environmental cleanup.</p>
+            <p>Used:  Unity, GOAP, C#.</p>
+        </div>
+        <div className="project">
+          <AspectRatio ratio={0.9}>
+            <a href="https://github.com/abodthedude25/Ray_Tracing_Octrees" target="_blank" rel="noreferrer"><img src={octreeRender} className="zoom" alt="thumbnail" width="100%"/></a>
+            </AspectRatio>
+          <a href="https://github.com/abodthedude25/Ray_Tracing_Octrees" target="_blank" rel="noreferrer"><h2>Octree Rendering</h2></a>
+          <p>Integrate multiple volumetric and surface-based rendering modes atop a single octree structure for large urban data. Each method, Marching Cubes, Dual Contouring, Voxel Blocks, Point Radiation, and Ray Tracing, was successfully realized and demonstrated.</p>
+          <p>Used:  C++, OpenGL, GLSL, Compute Shaders.</p>
         </div>
         <div className="project">
           <AspectRatio ratio={0.9}>

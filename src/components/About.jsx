@@ -55,6 +55,7 @@ function About() {
               <li> <b>Undergraduate Coursework:</b> Operating Systems; Algorithms and Data Structures; Networks; Comp. Architecture; Machine Learning; Circuits; Logic Design; Signal Processing; Compilers; Database Design. </li>
             </ul>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'black' }}
@@ -62,11 +63,56 @@ function About() {
             iconStyle={{ background: 'rgb(249, 38, 114)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title" style={{color: 'red'}} >Incoming SWE Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>Seattle, WA</h4>
-            <h4 className="vertical-timeline-element-subtitle" style={{color: 'green'}}>Google</h4>
+            <h3 className="vertical-timeline-element-title" style={{color: 'red'}} >SWE Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>New York, AB</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'green'}}>Google (GEMINI)</h4>
             <ul>
-              <li> Working on the metadata google cloud storage team. </li>
+              <li> <b>Research and implement</b> techniques for analyzing models and results to improve content filtering systems.</li>
+              <li> Apply ML knowledge to create and <b>refine training datasets</b> for <b>content classification</b> of Gemini Guardrails.</li>
+              <li> Work on evaluating and enhancing state-of-the-art content classifiers for safety and responsible AI. </li>
+            </ul>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'black' }}
+            date="06/2024 – 09/2024"
+            iconStyle={{ background: 'rgb(249, 38, 114)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title" style={{color: 'red'}} >Graphics Researcher</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'red'}}>Calgary, AB</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'red'}}>UofC (GIV Lab)</h4>
+            <ul>
+              <li> Developed a <b>performant octree-based rendering system</b> for large-scale urban visualization with multiple
+                rendering modes, including ray tracing and point radiation.</li>
+              <li> Demonstrated practical skills in <b>C++, GLSL shader programming</b>, graphics algorithms, and performance
+              optimization. </li>
+              <li> Implemented advanced GPU optimization techniques like frustum culling, mipmapped volume rendering,
+                and octree-based ray skipping, <b>improving performance by up to 70%</b>.</li>
+              <li> Applied <b>parallel computing</b> principles to process large datasets with multi-threaded CPU and GPU
+                acceleration techniques, like <b>compute shaders</b>.</li>
+            </ul>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'black' }}
+            date="06/2024 – 09/2024"
+            iconStyle={{ background: 'rgb(249, 38, 114)', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title" style={{color: 'red'}} >SWE Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>Seattle, WA</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'green'}}>Google (CLOUD)</h4>
+            <ul>
+              <li> Added a <b>recursive delete feature</b> for a file system-like hierarchy in GCS, improving user data management.</li>
+              <li> Architected and implemented scalable metadata operations to support recursive delete, ensuring data
+                  consistency and integrity across <b>distributed storage nodes</b>, using <b>Spanner</b> as the Backbone.</li>
+              <li> Collaborated with cross-functional teams to integrate the recursive delete feature with existing storage
+                APIs, <b>enhancing system functionality.</b> </li>
+              <li> Conducted rigorous <b>performance and system testing</b> to ensure high reliability and efficiency.</li>
+              <li> Leveraged skills in <b>Java and C++</b>, alongside expertise in distributed systems and <b>cloud architectures.</b></li>
             </ul>
           </VerticalTimelineElement>
 
@@ -79,7 +125,7 @@ function About() {
           >
             <h3 className="vertical-timeline-element-title" style={{color: 'blue'}} >ML Systems Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>Toronto, ON</h4>
-            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>Qualcomm</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>Qualcomm (ML Compilers)</h4>
             <ul>
               <li> <b>Compiled neural networks</b> to Qualcomm hardware, then analyzed results and prototyped algorithms to compilers and/or HW. <b>pybind11, TVM, Networking, Quantization.</b></li>
               <li> Ran, debuged, and analyzed <b>performance simulations</b> and suggested enhancements to tackle bottlenecks due to computing and system memory hierarchy. <b>chromeTrace, Netron, Jit-Profiling.</b></li>
@@ -96,7 +142,7 @@ function About() {
           >
             <h3 className="vertical-timeline-element-title" style={{color: 'orange'}} >Software Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle" style={{color: 'orange'}}>Vancouver, BC</h4>
-            <h4 className="vertical-timeline-element-subtitle" style={{color: 'orange'}}>Amazon</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'orange'}}>Amazon (Ecommerce)</h4>
             <ul>
               <li> Wrote <b>ranking algorithm</b> for price, price-per-unit (PPU), reviews, and delivery-time. <b>Java</b>.</li>
               <li> Fetch items from twister microservice and widget recommendations to <b>create a batch API request.</b></li>
