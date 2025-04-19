@@ -64,7 +64,7 @@ function About() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title" style={{color: 'red'}} >SWE Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>New York, AB</h4>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: 'blue'}}>New York, NY</h4>
             <h4 className="vertical-timeline-element-subtitle" style={{color: 'green'}}>Google (GEMINI)</h4>
             <ul>
               <li> <b>Research and implement</b> techniques for analyzing models and results to improve content filtering systems.</li>
@@ -72,7 +72,7 @@ function About() {
               <li> Work on evaluating and enhancing state-of-the-art content classifiers for safety and responsible AI. </li>
             </ul>
           </VerticalTimelineElement>
-
+4
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'black' }}
