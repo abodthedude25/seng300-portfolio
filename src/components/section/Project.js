@@ -9,6 +9,7 @@ import schulichRacing from '../assets/images/schulichRacing.jpg'
 import ignite from '../assets/images/ignite.png'
 import upSkill from '../assets/images/upskill.jfif'
 import compiler from '../assets/images/compiler.png'
+import beam from '../assets/images/beam.png'
 import a4h from '../assets/images/A4H.png'
 import selfDrive from '../assets/images/selfDrive.gif'
 import snake from '../assets/images/snake.png'
@@ -80,11 +81,11 @@ function Project() {
         </div>
         <div className="project">
           <AspectRatio ratio={1.4}>
-            <a  target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock8.png" className="zoom" alt="thumbnail" width="100%"/></a>
+            <a href="https://devpost.com/software/beam-9tv7aj" target="_blank" rel="noreferrer"><img src={beam} className="zoom" alt="thumbnail" width="100%"/></a>
           </AspectRatio>
-          <a  target="_blank" rel="noreferrer"><h2>PyScraper</h2></a>
-          <p>Developed web scraping programs to extract over 800000+ data for analysis purposes. The program further automates the data cleaning and normalization processes.</p>
-          <p>Used: Python, Pandas, Selenium, Requests, Beautiful Soup</p>
+          <a  target="_blank" rel="noreferrer"><h2>Beam</h2></a>
+          <p>Beam is a mobile application that enhances personal safety by leveraging real-time sentiment analysis and natural language processing (NLP). It continuously monitors conversations to detect aggression levels, and upon detecting a predefined safe word, it automatically triggers live streaming to a set of emergency contacts.</p>
+          <p>Used: React Native, Fastapi, NLP, Postgresql,  Typescript</p>
         </div>
         <div className="project">
           <AspectRatio ratio={1.4}>
